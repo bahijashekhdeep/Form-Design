@@ -1,0 +1,75 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: rgb(44, 40, 40);
+  font-family: system-ui;
+}
+body {
+  background-color: turquoise;
+}
+.card {
+  margin: 30px auto 0px auto;
+
+  width: 654px;
+  background-color: white;
+  height: 330px;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0 1px 10px 0 grey, 0 2px 5px 0 grey;
+}
+.card .data {
+  margin: 30px;
+}
+
+.card .capition {
+  width: 3640px;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.subject a {
+  margin: 7px;
+  text-decoration: none;
+  box-shadow: 3px 3px 2px #ddd;
+  font-size: 12px;
+  padding: 3px;
+}
+
+.card form input {
+  margin-bottom: 7px;
+  width: 171px;
+  border: transparent;
+  border-bottom: 2px solid #d9d9d9;
+  transition: 1s;
+}
+
+.card form button {
+  background-color: turquoise;
+  border-radius: 8px;
+  padding: 0px 62px;
+  margin-top: 35px;
+  height: 40px;
+  border: transparent;
+  color: white;
+  box-shadow: 0 1px 10px 0 turquoise, 0 2px 5px 0 grey;
+}
+.card form button:hover {
+  background-image: linear-gradient(
+    90deg,
+    turquoise 0%,
+    #00c0ff 49%,
+    #00c0ff 49%,
+    turquoise 100%
+  );
+  margin-top: 32px;
+}
+
+.card form input:hover {
+  border-bottom: 2px solid turquoise;
+}
+.card form input:focus {
+  outline: none;
+}

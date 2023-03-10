@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  font-size: 13px;
+  line-height: 30px;
+  color: gray;
+  background: #378a3c;
+}
+
+.card {
+  width: 400px;
+  background: #fff;
+  padding: 25px;
+  margin: auto;
+  margin-top: 33px;
+  box-shadow: 0 1px 20px 0 rgb(70, 67, 67), 0 2px 5px 0 grey;
+}
+
+.card h2 {
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.card h4 {
+  font-weight: 400;
+}
+
+.card input,
+.card textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  margin: 0 0 13px;
+  padding: 10px;
+}
+
+.card input:hover,
+.card textarea:hover {
+  border: 1px solid gray;
+}
+
+.card textarea {
+  min-width: 100%;
+  height: 100px;
+  max-width: 100%;
+}
+
+.card button {
+  width: 100%;
+  border: 1px solid grey;
+  background: #378a3c;
+  color: white;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.card button:hover {
+  background: green;
+}
+
+.from {
+    margin-top: 15px;
+  text-align: center;
+}
+
+.card input:focus,
+.card textarea:focus {
+  outline: 0;
+  border: 1px solid gray;
+}
